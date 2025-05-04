@@ -1,0 +1,79 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background: #ffffff;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.wallet-button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 2rem 1.5rem;
+  background: #ffffff;
+}
+
+.hero h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero h2 span {
+  font-weight: bold;
+}
+
+.trusted-box {
+  margin: 1rem 0;
+  background: #e0f0ff;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.trusted-box img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.images img {
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+
+.about, .services, .how-it-works {
+  padding: 2rem 1.5rem;
+  background: #ffffff;
+  margin-top: 1rem;
+}
+
+.tags span {
+  display: inline-block;
+  background: #f0f0f0;
+  padding: 0.4rem 0.8rem;
+  margin: 0.2rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.step {
+  margin-top: 1.5rem;
+}
